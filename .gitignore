@@ -1,0 +1,6 @@
+venv
+*.pdf
+.env
+__pycache__/
+*.bat
+*sh

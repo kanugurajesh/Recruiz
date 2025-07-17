@@ -1,0 +1,33 @@
+# requirements.txt
+# Backend Dependencies
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+sqlalchemy>=2.0.23
+psycopg2-binary>=2.9.9
+alembic>=1.12.1
+python-multipart>=0.0.6
+python-jwt>=3.3.4  # Note: PyJWT is often imported as 'jwt'
+passlib[bcrypt]>=1.7.4
+bcrypt>=4.0.1
+python-dotenv>=1.0.0
+pydantic[email]>=2.5.0
+pandas>=2.1.4
+numpy>=1.24.3
+
+# AI/ML Dependencies
+google-generativeai>=0.3.2
+qdrant-client>=1.7.0
+sentence-transformers>=2.2.2
+scikit-learn>=1.3.2
+spacy>=3.7.2
+
+# Document Processing
+PyPDF2>=3.0.1
+python-docx>=1.1.0
+
+# Frontend Dependencies
+streamlit>=1.32.0
+plotly>=5.17.0
+
+# Utilities
+requests>=2.31.0
